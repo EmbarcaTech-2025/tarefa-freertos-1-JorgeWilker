@@ -1,2 +1,41 @@
-build
-.vscode
+# Configurações do editor e cursor
+.cursor/
+cursor-rules.json
+
+# Configurações da IDE
+.vscode/
+
+# Arquivos de compilação
+build/
+*.elf
+*.bin
+*.hex
+*.uf2
+*.map
+*.dis
+*.o
+*.a
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+.DS_Store
+Thumbs.db
+
+# Arquivos de debug
+*.gdb
+*.dmp
+debug/
+logs/
+
+# Dependências e caches
+.pico-sdk/
+.cache/
+node_modules/
+
+# Específicos do projeto
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
